@@ -2,4 +2,7 @@ language.name=English
 language.region=US
 language.code=en_US
 
+itemGroup.spicy_plasma_tab=Spicy Plasma Tab
+
 item.spicyplasma.magnesium_ingot.name=Magnesium Ingot
+item.spicyplasma.magnesium_shard.name=Magnesium Shard
