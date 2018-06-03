@@ -11,6 +11,10 @@ item.spicyplasma.ionic_plasma.name=Ionic Plasma
 item.spicyplasma.magnesium_rod.name=Magnesium Rod
 item.spicyplasma.plasma_plate.name=Plasma Plate
 item.spicyplasma.plasmatic_ingot.name=Plasmatic Ingot
+item.spicyplasma.magnesium_pickaxe.name=Magnesium Pickaxe
+item.spicyplasma.magnesium_axe.name=Magnesium Axe
+item.spicyplasma.magnesium_shovel.name=Magnesium Shovel
+item.spicyplasma.magnesium_hoe.name=Magnesium Hoe
 
 tile.spicyplasma.magnesium_ore.name=Magnesium Ore
 tile.spicyplasma.magnesium_block.name=Magnesium Block

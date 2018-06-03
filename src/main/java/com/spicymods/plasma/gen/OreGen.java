@@ -25,7 +25,7 @@ public class OreGen implements IWorldGenerator {
                 break;
             //Overworld
             case 0:
-                runGenerator(ModBlocks.magnesiumOre.getDefaultState(), 5, 20, 6, 100, BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
+                runGenerator(ModBlocks.magnesiumOre.getDefaultState(), 8, 25, 6, 100, BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
                 break;
             //End
             case 1:

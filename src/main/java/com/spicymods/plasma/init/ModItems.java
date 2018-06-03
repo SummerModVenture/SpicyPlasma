@@ -2,6 +2,10 @@ package com.spicymods.plasma.init;
 
 import com.spicymods.plasma.ModMain;
 import com.spicymods.plasma.item.misc.*;
+import com.spicymods.plasma.item.tools.MagnesiumAxe;
+import com.spicymods.plasma.item.tools.MagnesiumHoe;
+import com.spicymods.plasma.item.tools.MagnesiumPickaxe;
+import com.spicymods.plasma.item.tools.MagnesiumShovel;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -20,6 +24,10 @@ public class ModItems {
     public static Item magnesiumRod;
     public static Item plasmaPlate;
     public static Item plasmaticIngot;
+    public static Item magnesiumPickaxe;
+    public static Item magnesiumAxe;
+    public static Item magnesiumShovel;
+    public static Item magnesiumHoe;
 
     public static void init() {
         magnesiumIngot = new MagnesiumIngot();
@@ -29,6 +37,10 @@ public class ModItems {
         magnesiumRod = new MagnesiumRod();
         plasmaPlate = new PlasmaPlate();
         plasmaticIngot = new PlasmaticIngot();
+        magnesiumPickaxe = new MagnesiumPickaxe();
+        magnesiumAxe = new MagnesiumAxe();
+        magnesiumShovel = new MagnesiumShovel();
+        magnesiumHoe = new MagnesiumHoe();
     }
 
     @SubscribeEvent
@@ -40,6 +52,10 @@ public class ModItems {
         event.getRegistry().register(magnesiumRod);
         event.getRegistry().register(plasmaPlate);
         event.getRegistry().register(plasmaticIngot);
+        event.getRegistry().register(magnesiumPickaxe);
+        event.getRegistry().register(magnesiumAxe);
+        event.getRegistry().register(magnesiumShovel);
+        event.getRegistry().register(magnesiumHoe);
     }
 
     @SubscribeEvent
@@ -51,6 +67,10 @@ public class ModItems {
         registerRender(magnesiumRod);
         registerRender(plasmaPlate);
         registerRender(plasmaticIngot);
+        registerRender(magnesiumPickaxe);
+        registerRender(magnesiumAxe);
+        registerRender(magnesiumShovel);
+        registerRender(magnesiumHoe);
     }
 
     public static void registerRender(Item item) {
