@@ -1,6 +1,7 @@
 package com.spicymods.plasma.init;
 
 import com.spicymods.plasma.ModMain;
+import com.spicymods.plasma.item.armor.MagnesiumArmor;
 import com.spicymods.plasma.item.misc.*;
 import com.spicymods.plasma.item.tools.MagnesiumAxe;
 import com.spicymods.plasma.item.tools.MagnesiumHoe;
@@ -8,6 +9,7 @@ import com.spicymods.plasma.item.tools.MagnesiumPickaxe;
 import com.spicymods.plasma.item.tools.MagnesiumShovel;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -23,8 +25,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class ModItems {
 
     //armor material
-    public static final ArmorMaterial ARMOR_MAGNESIUM = EnumHelper.addArmorMaterial("magnesium","magnesium",150, new int[]{2,5,4,1}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-    public static final ArmorMaterial ARMOR_PLASMA = EnumHelper.addArmorMaterial("plasma", "plasma", 600, new int[]{6,12,9,5}, 0, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
+    public static final ArmorMaterial ARMOR_MAGNESIUM = EnumHelper.addArmorMaterial("magnesium","magnesium",150, new int[]{1,4,5,2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+    public static final ArmorMaterial ARMOR_PLASMA = EnumHelper.addArmorMaterial("plasma", "plasma", 600, new int[]{5,9,12,6}, 0, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
 
     //tool material
     public static final ToolMaterial TOOL_MAGNESIUM = EnumHelper.addToolMaterial("magnesium", 2, 100, 5.0F, 6.0F, 0);
@@ -66,6 +68,10 @@ public class ModItems {
         magnesiumShovel = new MagnesiumShovel();
         magnesiumHoe = new MagnesiumHoe();
         //armor
+        magnesiumHelmet = new MagnesiumArmor(EntityEquipmentSlot.HEAD, "magnesium_helmet");
+        magnesiumChestPlate = new MagnesiumArmor(EntityEquipmentSlot.CHEST, "magnesium_chestplate");
+        magnesiumLeggings = new MagnesiumArmor(EntityEquipmentSlot.LEGS, "magnesium_leggings");
+        magnesiumBoots = new MagnesiumArmor(EntityEquipmentSlot.FEET, "magnesium_boots");
     }
 
     @SubscribeEvent
@@ -84,6 +90,10 @@ public class ModItems {
         event.getRegistry().register(magnesiumShovel);
         event.getRegistry().register(magnesiumHoe);
         //armor
+        event.getRegistry().register(magnesiumHelmet);
+        event.getRegistry().register(magnesiumChestPlate);
+        event.getRegistry().register(magnesiumLeggings);
+        event.getRegistry().register(magnesiumBoots);
     }
 
     @SubscribeEvent
@@ -102,6 +112,10 @@ public class ModItems {
         registerRender(magnesiumShovel);
         registerRender(magnesiumHoe);
         //armor
+        registerRender(magnesiumHelmet);
+        registerRender(magnesiumChestPlate);
+        registerRender(magnesiumLeggings);
+        registerRender(magnesiumBoots);
     }
 
     public static void registerRender(Item item) {
