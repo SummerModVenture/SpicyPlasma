@@ -5,11 +5,11 @@ import net.minecraft.item.Item;
 import static com.spicymods.plasma.ModMain.MODID;
 import static com.spicymods.plasma.tab.SpicyPlasmaTab.plasmaTab;
 
-public class MagnesiumShard extends Item {
+public class PlasmaticIngot extends Item {
 
-    public MagnesiumShard() {
-        this.setRegistryName("magnesium_shard");
-        this.setUnlocalizedName(MODID+".magnesium_shard");
+    public PlasmaticIngot() {
+        this.setRegistryName("plasmatic_ingot");
+        this.setUnlocalizedName(MODID+".plasmatic_ingot");
         this.setMaxStackSize(64);
         this.setCreativeTab(plasmaTab);
     }

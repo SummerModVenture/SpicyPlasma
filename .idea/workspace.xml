@@ -2,21 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98b742d-978e-4d84-ae2a-843011bbafbb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ModBlocks.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ore/MagnesiumOre.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/blockstates/magnesium_ore_blockstate.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/block/magnesium_ore.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_ore.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/IonicPlasma.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumRod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/Plasma.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/PlasmaPlate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/PlasmaticIngot.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/ionic_plasma.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_ore.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_rod.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_plate.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_ingot.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/armor/magnesium_boots.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/armor/magnesium_chestplate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/armor/magnesium_helmet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/armor/magnesium_leggings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/armor/plasma_boots.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/armor/plasma_chestplate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/armor/plasma_helmet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/armor/plasma_leggings.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/misc/ionic_plasma.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/misc/magnesium_rod.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/misc/plasma.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/misc/plasma_plate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/misc/plasmatic_ingot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/tools/magnesium_axe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/tools/magnesium_hoe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/tools/magnesium_pickaxe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/tools/magnesium_shovel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/tools/plasmatic_axe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/tools/plasmatic_hoe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/tools/plasmatic_pickaxe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/tools/plasmatic_shovel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/weapons/magnesium_sword.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/weapons/plasmatic_sword.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/items/weapons/plasmatic_wand.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ModBlocks.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ore/MagnesiumOre.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/MagnesiumOre.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumIngot.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumIngot.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumShard.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumShard.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/tab/SpicyPlasmaTab.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/tab/SpicyPlasmaTab.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/blockstates/magnesium_ore_blockstate.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/blockstates/magnesium_ore_blockstate.json" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/block/magnesium_ore.json" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/block/magnesium_ore.json" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_ore.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/magnesium_ore.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/blocks/ore/magnesium_oref6.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -47,64 +84,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ModBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="30" column="111" lean-forward="false" selection-start-line="30" selection-start-column="111" selection-end-line="30" selection-end-column="111" />
+            <state relative-caret-position="714">
+              <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MagnesiumOre.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ore/MagnesiumOre.java">
+      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="1092">
+              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magnesium_ore.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/block/magnesium_ore.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magnesium_ore_blockstate.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/blockstates/magnesium_ore_blockstate.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,8 +115,8 @@
       <file leaf-file-name="en_us.lang" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="252">
+              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -727,19 +730,31 @@
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/src/main/resources/assets.spicyplasma/models/item/magnesium_ingot.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets.spicyplasma/lang/en_us.lang" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_shard.json" />
         <option value="$PROJECT_DIR$/run/options.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumIngot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/tab/StartupCommon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/tab/SpicyPlasmaTab.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumShard.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ore/MagnesiumOre.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_ore.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/block/magnesium_ore.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/blockstates/magnesium_ore_blockstate.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ore/MagnesiumOre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/tab/SpicyPlasmaTab.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/IonicPlasma.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/Plasma.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumIngot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumShard.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/ionic_plasma.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumRod.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_rod.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/PlasmaPlate.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_plate.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/PlasmaticIngot.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_ingot.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/MagnesiumOre.java" />
       </list>
     </option>
   </component>
@@ -1255,8 +1270,7 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spicyplasma" type="462c0819:PsiDirectoryNode" />
               <item name="textures" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="ore" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpicyPlasma" type="b2602c69:ProjectViewProjectNode" />
@@ -1267,6 +1281,7 @@
               <item name="spicyplasma" type="462c0819:PsiDirectoryNode" />
               <item name="textures" type="462c0819:PsiDirectoryNode" />
               <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="armor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpicyPlasma" type="b2602c69:ProjectViewProjectNode" />
@@ -1278,6 +1293,28 @@
               <item name="textures" type="462c0819:PsiDirectoryNode" />
               <item name="items" type="462c0819:PsiDirectoryNode" />
               <item name="misc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpicyPlasma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpicyPlasma" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spicyplasma" type="462c0819:PsiDirectoryNode" />
+              <item name="textures" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpicyPlasma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpicyPlasma" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spicyplasma" type="462c0819:PsiDirectoryNode" />
+              <item name="textures" type="462c0819:PsiDirectoryNode" />
+              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="weapons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1294,9 +1331,15 @@
     <property name="SearchEverywhereHistoryKey" value="iron_in&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705.jar!/assets/minecraft/models/item/iron_ingot.json&#10;ingot&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705.jar!/assets/minecraft/recipes/gold_ingot_from_block.json" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\blocks" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\blocks\ore" />
+      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\items\weapons" />
+      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\items\tools" />
+      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\items\armor" />
       <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\items\misc" />
+      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\blocks\ore" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1445,7 +1488,7 @@
       <workItem from="1527921263924" duration="19000" />
       <workItem from="1527921923540" duration="2574000" />
       <workItem from="1527924528827" duration="5721000" />
-      <workItem from="1527975745889" duration="9224000" />
+      <workItem from="1527975745889" duration="14468000" />
     </task>
     <task id="LOCAL-00001" summary="MagnesiumIngot">
       <created>1527925175858</created>
@@ -1482,11 +1525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527980827855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="MagnesiumOre">
+      <created>1527989068395</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527989068395</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18146000" />
+    <option name="totallyTimeSpent" value="23390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="29" width="1938" height="1060" extended-state="6" />
@@ -1494,7 +1544,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1532,69 +1582,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MagnesiumIngot" />
     <MESSAGE value="MagnesiumShard and Functioning Creative Tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="MagnesiumShard and Functioning Creative Tab" />
+    <MESSAGE value="MagnesiumOre" />
+    <option name="LAST_COMMIT_MESSAGE" value="MagnesiumOre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumShard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumIngot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run/crash-reports/crash-2018-06-02_17.40.04-client.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1619,6 +1614,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1715,6 +1711,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1753,21 +1750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_ingot.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_shard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run/crash-reports/crash-2018-06-02_17.40.04-client.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1785,36 +1767,6 @@
             <element signature="e#391#392#0" expanded="false" />
             <element signature="e#460#461#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/tab/SpicyPlasmaTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#460#461#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumShard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumIngot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1842,28 +1794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run/crash-reports/crash-2018-06-02_21.03.47-client.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1886,24 +1820,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ModBlocks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_ore.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="30" column="111" lean-forward="false" selection-start-line="30" selection-start-column="111" selection-end-line="30" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/blockstates/magnesium_ore_blockstate.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="63">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1911,19 +1839,186 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/block/magnesium_ore.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ore/MagnesiumOre.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_shard.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="63">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/tab/SpicyPlasmaTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#460#461#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/Plasma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/IonicPlasma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumIngot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumShard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_ingot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/ionic_plasma.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/MagnesiumRod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/magnesium_rod.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/PlasmaPlate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_plate.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/misc/PlasmaticIngot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_ingot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/blocks/MagnesiumOre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/items/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

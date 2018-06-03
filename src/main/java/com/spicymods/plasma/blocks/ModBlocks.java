@@ -1,7 +1,6 @@
 package com.spicymods.plasma.blocks;
 
 import com.spicymods.plasma.ModMain;
-import com.spicymods.plasma.blocks.ore.MagnesiumOre;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

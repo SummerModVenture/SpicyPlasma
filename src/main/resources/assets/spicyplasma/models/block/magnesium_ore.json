@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "spicyplasma/blocks/ore/magnesium_ore"
+    "all": "spicyplasma:blocks/magnesium_ore"
   }
 }

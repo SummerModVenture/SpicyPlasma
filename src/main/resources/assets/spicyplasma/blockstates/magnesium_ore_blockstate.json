@@ -1,5 +1,7 @@
 {
   "variants": {
-    "normal": { "model": "spicyplasma:magnesium_ore" }
+    "normal": [
+      { "model": "spicyplasma:magnesium_ore" }
+    ]
   }
 }

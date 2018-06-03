@@ -6,5 +6,10 @@ itemGroup.spicy_plasma_tab=Spicy Plasma Tab
 
 item.spicyplasma.magnesium_ingot.name=Magnesium Ingot
 item.spicyplasma.magnesium_shard.name=Magnesium Shard
+item.spicyplasma.plasma.name=Plasma
+item.spicyplasma.ionic_plasma.name=Ionic Plasma
+item.spicyplasma.magnesium_rod.name=Magnesium Rod
+item.spicyplasma.plasma_plate.name=Plasma Plate
+item.spicyplasma.plasmatic_ingot.name=Plasmatic Ingot
 
 tile.spicyplasma.magnesium_ore.name=Magnesium Ore
