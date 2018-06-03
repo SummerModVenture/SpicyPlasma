@@ -1,5 +1,6 @@
 package com.spicymods.plasma;
 
+import com.spicymods.plasma.blocks.ModBlocks;
 import com.spicymods.plasma.items.ModItems;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
@@ -18,5 +19,6 @@ public class ModMain
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ModItems.init();
+        ModBlocks.init();
     }
 }

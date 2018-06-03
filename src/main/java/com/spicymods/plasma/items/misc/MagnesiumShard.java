@@ -1,6 +1,5 @@
 package com.spicymods.plasma.items.misc;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 import static com.spicymods.plasma.ModMain.MODID;
