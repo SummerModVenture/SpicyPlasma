@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spicyplasma:magnesium_ingot"
+    }
+  ],
+  "result": {
+    "item": "spicyplasma:magnesium_shard",
+    "count": 2
+  }
+}

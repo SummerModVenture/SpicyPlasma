@@ -1,7 +1,7 @@
-package com.spicymods.plasma.items;
+package com.spicymods.plasma.init;
 
 import com.spicymods.plasma.ModMain;
-import com.spicymods.plasma.items.misc.*;
+import com.spicymods.plasma.item.misc.*;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;

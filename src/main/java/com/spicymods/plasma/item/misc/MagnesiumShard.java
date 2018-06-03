@@ -1,4 +1,4 @@
-package com.spicymods.plasma.items.misc;
+package com.spicymods.plasma.item.misc;
 
 import net.minecraft.item.Item;
 

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "S": {
+      "item": "spicyplasma:magnesium_shard"
+    }
+  },
+  "result": {
+    "item": "spicyplasma:magnesium_rod"
+  }
+}

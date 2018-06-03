@@ -1,7 +1,6 @@
 package com.spicymods.plasma.tab;
 
-import com.spicymods.plasma.items.ModItems;
-import com.spicymods.plasma.items.misc.MagnesiumShard;
+import com.spicymods.plasma.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 

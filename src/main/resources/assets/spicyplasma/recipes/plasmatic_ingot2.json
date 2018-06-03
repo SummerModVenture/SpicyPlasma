@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "PlasmaticIngot",
+  "ingredients": [
+    {
+      "item": "spicyplasma:plasmatic_block"
+    }
+  ],
+  "result": {
+    "item": "spicyplasma:plasmatic_ingot",
+    "count": 9
+  }
+}

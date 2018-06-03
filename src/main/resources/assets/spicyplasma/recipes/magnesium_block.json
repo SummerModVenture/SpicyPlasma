@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "spicyplasma:magnesium_ingot"
+    }
+  },
+  "result": {
+    "item": "spicyplasma:magnesium_block"
+  }
+}

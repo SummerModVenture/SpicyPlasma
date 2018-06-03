@@ -1,6 +1,9 @@
-package com.spicymods.plasma.blocks;
+package com.spicymods.plasma.init;
 
 import com.spicymods.plasma.ModMain;
+import com.spicymods.plasma.block.MagnesiumBlock;
+import com.spicymods.plasma.block.MagnesiumOre;
+import com.spicymods.plasma.block.PlasmaticBlock;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -15,24 +18,34 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class ModBlocks {
 
     public static Block magnesiumOre;
+    public static Block magnesiumBlock;
+    public static Block plasmaticBlock;
 
     public static void init() {
         magnesiumOre = new MagnesiumOre();
+        magnesiumBlock = new MagnesiumBlock();
+        plasmaticBlock = new PlasmaticBlock();
     }
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().register(magnesiumOre);
+        event.getRegistry().register(magnesiumBlock);
+        event.getRegistry().register(plasmaticBlock);
     }
 
     @SubscribeEvent
     public static void registerItemBlocks(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new ItemBlock(magnesiumOre).setRegistryName(magnesiumOre.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(magnesiumBlock).setRegistryName(magnesiumBlock.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(plasmaticBlock).setRegistryName(plasmaticBlock.getRegistryName()));
     }
 
     @SubscribeEvent
     public static void registerRender(ModelRegistryEvent event) {
         registerRender(Item.getItemFromBlock(magnesiumOre));
+        registerRender(Item.getItemFromBlock(magnesiumBlock));
+        registerRender(Item.getItemFromBlock(plasmaticBlock));
     }
 
     public static void registerRender(Item item) {

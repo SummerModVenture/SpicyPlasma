@@ -13,3 +13,5 @@ item.spicyplasma.plasma_plate.name=Plasma Plate
 item.spicyplasma.plasmatic_ingot.name=Plasmatic Ingot
 
 tile.spicyplasma.magnesium_ore.name=Magnesium Ore
+tile.spicyplasma.magnesium_block.name=Magnesium Block
+tile.spicyplasma.plasmatic_block.name=Plasmatic Block
