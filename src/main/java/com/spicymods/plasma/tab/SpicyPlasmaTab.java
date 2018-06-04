@@ -8,7 +8,7 @@ public class SpicyPlasmaTab {
     public static CreativeTabs plasmaTab = new CreativeTabs("spicy_plasma_tab") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(ModItems.magnesiumShard);
+            return new ItemStack(ModItems.plasma);
         }
     };
 }

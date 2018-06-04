@@ -2,12 +2,11 @@ package com.spicymods.plasma.init;
 
 import com.spicymods.plasma.ModMain;
 import com.spicymods.plasma.item.armor.MagnesiumArmor;
+import com.spicymods.plasma.item.armor.PlasmaArmor;
 import com.spicymods.plasma.item.misc.*;
-import com.spicymods.plasma.item.tools.MagnesiumAxe;
-import com.spicymods.plasma.item.tools.MagnesiumHoe;
-import com.spicymods.plasma.item.tools.MagnesiumPickaxe;
-import com.spicymods.plasma.item.tools.MagnesiumShovel;
+import com.spicymods.plasma.item.tools.*;
 import com.spicymods.plasma.item.weapons.MagnesiumSword;
+import com.spicymods.plasma.item.weapons.PlasmaticSword;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -48,12 +47,21 @@ public class ModItems {
     public static Item magnesiumShovel;
     public static Item magnesiumHoe;
     public static Item magnesiumSword;
+    public static Item plasmaticPickaxe;
+    public static Item plasmaticAxe;
+    public static Item plasmaticShovel;
+    public static Item plasmaticHoe;
+    public static Item plasmaticSword;
 
     //armor
     public static Item magnesiumHelmet;
     public static Item magnesiumChestPlate;
     public static Item magnesiumLeggings;
     public static Item magnesiumBoots;
+    public static Item plasmaHelmet;
+    public static Item plasmaChestPlate;
+    public static Item plasmaLeggings;
+    public static Item plasmaBoots;
 
     public static void init() {
         //misc items
@@ -70,11 +78,20 @@ public class ModItems {
         magnesiumShovel = new MagnesiumShovel();
         magnesiumHoe = new MagnesiumHoe();
         magnesiumSword = new MagnesiumSword();
+        plasmaticPickaxe = new PlasmaticPickaxe();
+        plasmaticAxe = new PlasmaticAxe();
+        plasmaticShovel = new PlasmaticShovel();
+        plasmaticHoe = new PlasmaticHoe();
+        plasmaticSword = new PlasmaticSword();
         //armor
         magnesiumHelmet = new MagnesiumArmor(EntityEquipmentSlot.HEAD, "magnesium_helmet");
         magnesiumChestPlate = new MagnesiumArmor(EntityEquipmentSlot.CHEST, "magnesium_chestplate");
         magnesiumLeggings = new MagnesiumArmor(EntityEquipmentSlot.LEGS, "magnesium_leggings");
         magnesiumBoots = new MagnesiumArmor(EntityEquipmentSlot.FEET, "magnesium_boots");
+        plasmaHelmet = new PlasmaArmor(EntityEquipmentSlot.HEAD, "plasma_helmet");
+        plasmaChestPlate = new PlasmaArmor(EntityEquipmentSlot.CHEST, "plasma_chestplate");
+        plasmaLeggings = new PlasmaArmor(EntityEquipmentSlot.LEGS, "plasma_leggings");
+        plasmaBoots = new PlasmaArmor(EntityEquipmentSlot.FEET, "plasma_boots");
     }
 
     @SubscribeEvent
@@ -93,11 +110,20 @@ public class ModItems {
         event.getRegistry().register(magnesiumShovel);
         event.getRegistry().register(magnesiumHoe);
         event.getRegistry().register(magnesiumSword);
+        event.getRegistry().register(plasmaticPickaxe);
+        event.getRegistry().register(plasmaticAxe);
+        event.getRegistry().register(plasmaticShovel);
+        event.getRegistry().register(plasmaticHoe);
+        event.getRegistry().register(plasmaticSword);
         //armor
         event.getRegistry().register(magnesiumHelmet);
         event.getRegistry().register(magnesiumChestPlate);
         event.getRegistry().register(magnesiumLeggings);
         event.getRegistry().register(magnesiumBoots);
+        event.getRegistry().register(plasmaHelmet);
+        event.getRegistry().register(plasmaChestPlate);
+        event.getRegistry().register(plasmaLeggings);
+        event.getRegistry().register(plasmaBoots);
     }
 
     @SubscribeEvent
@@ -116,11 +142,20 @@ public class ModItems {
         registerRender(magnesiumShovel);
         registerRender(magnesiumHoe);
         registerRender(magnesiumSword);
+        registerRender(plasmaticPickaxe);
+        registerRender(plasmaticAxe);
+        registerRender(plasmaticShovel);
+        registerRender(plasmaticHoe);
+        registerRender(plasmaticSword);
         //armor
         registerRender(magnesiumHelmet);
         registerRender(magnesiumChestPlate);
         registerRender(magnesiumLeggings);
         registerRender(magnesiumBoots);
+        registerRender(plasmaHelmet);
+        registerRender(plasmaChestPlate);
+        registerRender(plasmaLeggings);
+        registerRender(plasmaBoots);
     }
 
     public static void registerRender(Item item) {
