@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpicyPlasma_api.iml" filepath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_api.iml" group="SpicyPlasma" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpicyPlasma_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_main.iml" group="SpicyPlasma" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpicyPlasma_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_test.iml" group="SpicyPlasma" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_api.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_api.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" group="core" />
     </modules>
   </component>
 </project>

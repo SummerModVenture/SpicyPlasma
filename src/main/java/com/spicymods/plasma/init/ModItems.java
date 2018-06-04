@@ -7,6 +7,7 @@ import com.spicymods.plasma.item.tools.MagnesiumAxe;
 import com.spicymods.plasma.item.tools.MagnesiumHoe;
 import com.spicymods.plasma.item.tools.MagnesiumPickaxe;
 import com.spicymods.plasma.item.tools.MagnesiumShovel;
+import com.spicymods.plasma.item.weapons.MagnesiumSword;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -29,7 +30,7 @@ public class ModItems {
     public static final ArmorMaterial ARMOR_PLASMA = EnumHelper.addArmorMaterial("plasma", "plasma", 600, new int[]{5,9,12,6}, 0, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
 
     //tool material
-    public static final ToolMaterial TOOL_MAGNESIUM = EnumHelper.addToolMaterial("magnesium", 2, 100, 5.0F, 6.0F, 0);
+    public static final ToolMaterial TOOL_MAGNESIUM = EnumHelper.addToolMaterial("magnesium", 2, 100, 5.0F, 1.0F, 0);
     public static final ToolMaterial TOOL_PLASMATIC = EnumHelper.addToolMaterial("plasmatic", 4, 3000, 20.0F, 10.0F, 0);
 
     //misc items
@@ -46,6 +47,7 @@ public class ModItems {
     public static Item magnesiumAxe;
     public static Item magnesiumShovel;
     public static Item magnesiumHoe;
+    public static Item magnesiumSword;
 
     //armor
     public static Item magnesiumHelmet;
@@ -67,6 +69,7 @@ public class ModItems {
         magnesiumAxe = new MagnesiumAxe();
         magnesiumShovel = new MagnesiumShovel();
         magnesiumHoe = new MagnesiumHoe();
+        magnesiumSword = new MagnesiumSword();
         //armor
         magnesiumHelmet = new MagnesiumArmor(EntityEquipmentSlot.HEAD, "magnesium_helmet");
         magnesiumChestPlate = new MagnesiumArmor(EntityEquipmentSlot.CHEST, "magnesium_chestplate");
@@ -89,6 +92,7 @@ public class ModItems {
         event.getRegistry().register(magnesiumAxe);
         event.getRegistry().register(magnesiumShovel);
         event.getRegistry().register(magnesiumHoe);
+        event.getRegistry().register(magnesiumSword);
         //armor
         event.getRegistry().register(magnesiumHelmet);
         event.getRegistry().register(magnesiumChestPlate);
@@ -111,6 +115,7 @@ public class ModItems {
         registerRender(magnesiumAxe);
         registerRender(magnesiumShovel);
         registerRender(magnesiumHoe);
+        registerRender(magnesiumSword);
         //armor
         registerRender(magnesiumHelmet);
         registerRender(magnesiumChestPlate);

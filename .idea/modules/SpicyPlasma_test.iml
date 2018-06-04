@@ -28,6 +28,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="core_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
