@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " M ",
+    " M "
+  ],
+  "key": {
+    "P": {
+      "item": "spicyplasma:plasmatic_ingot"
+    },
+    "M": {
+      "item": "spicyplasma:magnesium_rod"
+    }
+  },
+  "result": {
+    "item": "spicyplasma:plasmatic_pickaxe"
+  }
+}

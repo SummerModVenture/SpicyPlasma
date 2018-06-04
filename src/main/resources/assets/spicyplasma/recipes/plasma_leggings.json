@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDP",
+    "P P",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "spicyplasma:plasma_plate"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "spicyplasma:plasma_leggings"
+  }
+}
