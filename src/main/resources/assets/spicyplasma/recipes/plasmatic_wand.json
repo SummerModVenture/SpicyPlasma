@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IEI",
+    "MMM",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "spicyplasma:ionic_plasma"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "M": {
+      "item": "spicyplasma:magnesium_rod"
+    }
+  },
+  "result": {
+    "item": "spicyplasma:plasmatic_wand"
+  }
+}

@@ -7,6 +7,7 @@ import com.spicymods.plasma.item.misc.*;
 import com.spicymods.plasma.item.tools.*;
 import com.spicymods.plasma.item.weapons.MagnesiumSword;
 import com.spicymods.plasma.item.weapons.PlasmaticSword;
+import com.spicymods.plasma.item.weapons.PlasmaticWand;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -25,12 +26,12 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class ModItems {
 
     //armor material
-    public static final ArmorMaterial ARMOR_MAGNESIUM = EnumHelper.addArmorMaterial("magnesium","magnesium",150, new int[]{1,4,5,2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
-    public static final ArmorMaterial ARMOR_PLASMA = EnumHelper.addArmorMaterial("plasma", "plasma", 600, new int[]{5,9,12,6}, 0, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
+    public static final ArmorMaterial ARMOR_MAGNESIUM = EnumHelper.addArmorMaterial("magnesium","magnesium",150, new int[]{1,4,5,2}, 23, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+    public static final ArmorMaterial ARMOR_PLASMA = EnumHelper.addArmorMaterial("plasma", "plasma", 600, new int[]{5,9,12,6}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F);
 
     //tool material
-    public static final ToolMaterial TOOL_MAGNESIUM = EnumHelper.addToolMaterial("magnesium", 2, 100, 5.0F, 1.0F, 0);
-    public static final ToolMaterial TOOL_PLASMATIC = EnumHelper.addToolMaterial("plasmatic", 4, 3000, 20.0F, 10.0F, 0);
+    public static final ToolMaterial TOOL_MAGNESIUM = EnumHelper.addToolMaterial("magnesium", 2, 100, 5.0F, 1.0F, 20);
+    public static final ToolMaterial TOOL_PLASMATIC = EnumHelper.addToolMaterial("plasmatic", 4, 3000, 20.0F, 10.0F, 15);
 
     //misc items
     public static Item magnesiumIngot;
@@ -52,6 +53,7 @@ public class ModItems {
     public static Item plasmaticShovel;
     public static Item plasmaticHoe;
     public static Item plasmaticSword;
+    public static Item plasmaticWand;
 
     //armor
     public static Item magnesiumHelmet;
@@ -83,6 +85,7 @@ public class ModItems {
         plasmaticShovel = new PlasmaticShovel();
         plasmaticHoe = new PlasmaticHoe();
         plasmaticSword = new PlasmaticSword();
+        plasmaticWand = new PlasmaticWand();
         //armor
         magnesiumHelmet = new MagnesiumArmor(EntityEquipmentSlot.HEAD, "magnesium_helmet");
         magnesiumChestPlate = new MagnesiumArmor(EntityEquipmentSlot.CHEST, "magnesium_chestplate");
@@ -115,6 +118,7 @@ public class ModItems {
         event.getRegistry().register(plasmaticShovel);
         event.getRegistry().register(plasmaticHoe);
         event.getRegistry().register(plasmaticSword);
+        event.getRegistry().register(plasmaticWand);
         //armor
         event.getRegistry().register(magnesiumHelmet);
         event.getRegistry().register(magnesiumChestPlate);
@@ -147,6 +151,7 @@ public class ModItems {
         registerRender(plasmaticShovel);
         registerRender(plasmaticHoe);
         registerRender(plasmaticSword);
+        registerRender(plasmaticWand);
         //armor
         registerRender(magnesiumHelmet);
         registerRender(magnesiumChestPlate);
