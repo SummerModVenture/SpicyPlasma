@@ -3,8 +3,10 @@ package com.spicymods.plasma.init;
 import com.spicymods.plasma.ModMain;
 import com.spicymods.plasma.block.MagnesiumBlock;
 import com.spicymods.plasma.block.MagnesiumOre;
+import com.spicymods.plasma.block.PlasmaGolemHead;
 import com.spicymods.plasma.block.PlasmaticBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockHorizontal;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -20,11 +22,13 @@ public class ModBlocks {
     public static Block magnesiumOre;
     public static Block magnesiumBlock;
     public static Block plasmaticBlock;
+    public static BlockHorizontal plasmaGolemHead;
 
     public static void init() {
         magnesiumOre = new MagnesiumOre();
         magnesiumBlock = new MagnesiumBlock();
         plasmaticBlock = new PlasmaticBlock();
+        plasmaGolemHead = new PlasmaGolemHead();
     }
 
     @SubscribeEvent
@@ -32,6 +36,7 @@ public class ModBlocks {
         event.getRegistry().register(magnesiumOre);
         event.getRegistry().register(magnesiumBlock);
         event.getRegistry().register(plasmaticBlock);
+        event.getRegistry().register(plasmaGolemHead);
     }
 
     @SubscribeEvent
@@ -39,6 +44,7 @@ public class ModBlocks {
         event.getRegistry().register(new ItemBlock(magnesiumOre).setRegistryName(magnesiumOre.getRegistryName()));
         event.getRegistry().register(new ItemBlock(magnesiumBlock).setRegistryName(magnesiumBlock.getRegistryName()));
         event.getRegistry().register(new ItemBlock(plasmaticBlock).setRegistryName(plasmaticBlock.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(plasmaGolemHead).setRegistryName(plasmaGolemHead.getRegistryName()));
     }
 
     @SubscribeEvent
@@ -46,6 +52,7 @@ public class ModBlocks {
         registerRender(Item.getItemFromBlock(magnesiumOre));
         registerRender(Item.getItemFromBlock(magnesiumBlock));
         registerRender(Item.getItemFromBlock(plasmaticBlock));
+        registerRender(Item.getItemFromBlock(plasmaGolemHead));
     }
 
     public static void registerRender(Item item) {

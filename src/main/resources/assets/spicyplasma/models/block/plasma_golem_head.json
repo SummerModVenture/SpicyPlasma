@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spicyplasma:blocks/magnesium_block",
+    "up": "spicyplasma:blocks/magnesium_block",
+    "north": "spicyplasma:blocks/magnesium_ore",
+    "east": "spicyplasma:blocks/magnesium_block",
+    "south": "spicyplasma:blocks/magnesium_block",
+    "west": "spicyplasma:blocks/magnesium_block"
+  }
+}
