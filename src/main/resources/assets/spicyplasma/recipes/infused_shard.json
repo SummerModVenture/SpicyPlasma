@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP"
+  ],
+  "key": {
+    "P": {
+      "item": "spicyplasma:plasma"
+    },
+    "S": {
+      "item": "spicyplasma:magnesium_shard"
+    }
+  },
+  "result": {
+    "item": "spicyplasma:infused_shard"
+  }
+}

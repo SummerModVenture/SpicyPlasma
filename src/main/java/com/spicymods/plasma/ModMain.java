@@ -1,18 +1,24 @@
 package com.spicymods.plasma;
 
+import com.spicymemes.core.recipe.RecipesBase;
+import com.spicymemes.core.recipe.RecipesRegistryManager;
 import com.spicymods.plasma.init.ModBlocks;
 import com.spicymods.plasma.gen.OreGen;
 import com.spicymods.plasma.init.ModEntity;
 import com.spicymods.plasma.init.ModItems;
 import com.spicymods.plasma.init.ModRecipes;
 import com.spicymods.plasma.renders.RenderRegistry;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
 import org.apache.logging.log4j.Logger;
+
+//TODO Plasma Infused Shard, Charged Plasma Tools, Adjust Plasma Golem, Plasma as Fuel, Blood Plasma
 
 @Mod(modid = ModMain.MODID, name = ModMain.NAME, version = ModMain.VERSION)
 public class ModMain {
@@ -32,7 +38,10 @@ public class ModMain {
 
         ModItems.init();
         ModBlocks.init();
-        RenderRegistry.registerEntityRenders();
+
+        if (FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT) {
+            RenderRegistry.registerEntityRenders();
+        }
 
         logger.info("Generating Magnesium");
         GameRegistry.registerWorldGenerator(new OreGen(), 0);
@@ -43,6 +52,11 @@ public class ModMain {
         logger.info("Registering recipes and entities.");
         ModRecipes.init();
         ModEntity.registerEntities();
+
+        //RecipesBase crusherRecipes = RecipesRegistryManager.getRegistry(modID, registryName)
+        //if (crusherRecipes != null) {
+            //crusherRecipes.add(Block input, ItemStack output, float expReward);
+        //}
     }
 
     @EventHandler

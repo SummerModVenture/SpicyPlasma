@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98b742d-978e-4d84-ae2a-843011bbafbb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ClientProxy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/CommonProxy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/block/PlasmaGolemHead.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/entity/EntityPlasmaGolem.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/model/ModelPlasmaGolem.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/renders/RenderRegistry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/renders/entity/RenderPlasmaGolem.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/blockstates/plasma_golem_head.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/block/plasma_golem_head.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_golem_head.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/textures/models/entity/plasma_golem.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ServerProxy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/misc/InfusedShard.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/infused_shard.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/infused_shard.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasma_golem_head.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_api.iml" afterPath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_api.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/SpicyPlasma_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/SpicyPlasma.iml" afterPath="$PROJECT_DIR$/SpicyPlasma.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModBlocks.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModItems.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -77,11 +74,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ModMain.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ModMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+            <state relative-caret-position="210">
+              <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2583">
+              <caret line="143" column="36" lean-forward="false" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,14 +96,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModItems.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModItems.java">
+      <file leaf-file-name="InfusedShard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/misc/InfusedShard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infused_shard.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/infused_shard.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +131,8 @@
       <file leaf-file-name="en_us.lang" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+            <state relative-caret-position="168">
+              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -967,9 +984,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7639045406312" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="146239868" />
-        <entry key="$PROJECT_DIR$/core/build.gradle" value="3032437044" />
+        <entry key="$PROJECT_DIR$" value="7641807957515" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2029557392" />
+        <entry key="$PROJECT_DIR$/core/build.gradle" value="2740911008" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="2907694036" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="159431464" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1363726690" />
@@ -1166,19 +1183,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/magnesium_sword.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/tools/MagnesiumHoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/weapons/MagnesiumSword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/armor/PlasmaArmor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_helmet.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_chestplate.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_leggings.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_boots.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_pickaxe.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_axe.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_hoe.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_shovel.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/weapons/PlasmaticSword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/tools/PlasmaticShovel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/tools/PlasmaticPickaxe.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_sword.json" />
@@ -1200,7 +1210,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/magnesium_leggings.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_wand.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasmatic_wand.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/weapons/PlasmaticWand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/CommonProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ClientProxy.java" />
@@ -1209,14 +1218,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/blockstates/plasma_golem_head.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModBlocks.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasma_golem_head.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/block/plasma_golem_head.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/renders/RenderRegistry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/renders/entity/RenderPlasmaGolem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/block/PlasmaGolemHead.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/entity/EntityPlasmaGolem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/misc/InfusedShard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/infused_shard.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasma_golem_head.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/infused_shard.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/weapons/PlasmaticSword.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/run/eula.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java" />
       </list>
     </option>
   </component>
@@ -1227,10 +1244,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="y" value="38" />
+    <option name="x" value="393" />
+    <option name="y" value="175" />
     <option name="width" value="976" />
-    <option name="height" value="1050" />
+    <option name="height" value="923" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1570,6 +1587,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1905,9 +1925,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1915,14 +1932,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraft/entity/monster/EntityIronGolem.java&#10;pu&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraft/block/BlockPumpkin.java&#10;blockho&#9;PSI&#9;JAVA://net.minecraft.block.BlockHorizontal&#10;Snowm&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntitySnowman&#10;BlockPum&#9;PSI&#9;JAVA://net.minecraft.block.BlockPumpkin&#10;IronGol&#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.RenderIronGolem&#10;EntityGolem&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntityGolem&#10;IronGo&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntityIronGolem&#10;flintand&#9;PSI&#9;JAVA://net.minecraft.item.ItemFlintAndSteel&#10;commandte&#9;PSI&#9;JAVA://net.minecraft.command.server.CommandTeleport&#10;firecharge&#9;PSI&#9;JAVA://net.minecraft.item.ItemFireworkCharge&#10;EntityEnderP&#9;PSI&#9;JAVA://net.minecraft.entity.item.EntityEnderPearl&#10;enderpe&#9;PSI&#9;JAVA://net.minecraft.item.ItemEnderPearl&#10;Ender&#9;PSI&#9;JAVA://net.minecraftforge.event.entity.living.EnderTeleportEvent&#10;ModelAr&#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.layers.LayerArmorBase#modelArmor&#10;ItemToo&#9;PSI&#9;JAVA://net.minecraft.item.ItemTool&#10;ItemAr&#9;PSI&#9;JAVA://net.minecraft.item.ItemArmor&#10;Item&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraft/item/ItemAxe.java&#10;ItemAxe&#9;PSI&#9;JAVA://net.minecraft.item.ItemAxe&#10;iron_o&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/assets/minecraft/blockstates/iron_ore.json&#10;iron_in&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705.jar!/assets/minecraft/models/item/iron_ingot.json&#10;ingot&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705.jar!/assets/minecraft/recipes/gold_ingot_from_block.json" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="SearchEverywhereHistoryKey" value="BlockAir&#9;PSI&#9;JAVA://net.minecraft.block.BlockAir&#10;pu&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraft/block/BlockPumpkin.java&#10;blockho&#9;PSI&#9;JAVA://net.minecraft.block.BlockHorizontal&#10;Snowm&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntitySnowman&#10;BlockPum&#9;PSI&#9;JAVA://net.minecraft.block.BlockPumpkin&#10;IronGol&#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.RenderIronGolem&#10;EntityGolem&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntityGolem&#10;IronGo&#9;PSI&#9;JAVA://net.minecraft.entity.monster.EntityIronGolem&#10;flintand&#9;PSI&#9;JAVA://net.minecraft.item.ItemFlintAndSteel&#10;commandte&#9;PSI&#9;JAVA://net.minecraft.command.server.CommandTeleport&#10;firecharge&#9;PSI&#9;JAVA://net.minecraft.item.ItemFireworkCharge&#10;EntityEnderP&#9;PSI&#9;JAVA://net.minecraft.entity.item.EntityEnderPearl&#10;enderpe&#9;PSI&#9;JAVA://net.minecraft.item.ItemEnderPearl&#10;Ender&#9;PSI&#9;JAVA://net.minecraftforge.event.entity.living.EnderTeleportEvent&#10;ModelAr&#9;PSI&#9;JAVA://net.minecraft.client.renderer.entity.layers.LayerArmorBase#modelArmor&#10;ItemToo&#9;PSI&#9;JAVA://net.minecraft.item.ItemTool&#10;ItemAr&#9;PSI&#9;JAVA://net.minecraft.item.ItemArmor&#10;Item&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraft/item/ItemAxe.java&#10;ItemAxe&#9;PSI&#9;JAVA://net.minecraft.item.ItemAxe&#10;iron_o&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/assets/minecraft/blockstates/iron_ore.json&#10;iron_in&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705.jar!/assets/minecraft/models/item/iron_ingot.json&#10;ingot&#9;FILE&#9;jar://C:/Users/lavoiet2/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705.jar!/assets/minecraft/recipes/gold_ingot_from_block.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\models\armor" />
-      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\blocks" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.spicymods.plasma.renders" />
     </key>
@@ -1932,6 +1946,10 @@
       <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\blocks" />
       <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\items\weapons" />
       <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\items\tools" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\models\armor" />
+      <recent name="C:\Users\lavoiet2\Downloads\Coding\SpicyPlasma\src\main\resources\assets\spicyplasma\textures\blocks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2110,7 +2128,16 @@
       <workItem from="1528081023339" duration="34000" />
       <workItem from="1528081074944" duration="730000" />
       <workItem from="1528081828148" duration="1804000" />
-      <workItem from="1528094570384" duration="24898000" />
+      <workItem from="1528094570384" duration="34239000" />
+      <workItem from="1528398449545" duration="1236000" />
+      <workItem from="1528402717053" duration="606000" />
+      <workItem from="1528519490900" duration="368000" />
+      <workItem from="1528520744358" duration="875000" />
+      <workItem from="1530325453497" duration="798000" />
+      <workItem from="1530399076475" duration="135000" />
+      <workItem from="1530400819492" duration="683000" />
+      <workItem from="1530473377631" duration="1287000" />
+      <workItem from="1533957999764" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="MagnesiumIngot">
       <created>1527925175858</created>
@@ -2217,11 +2244,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528175664631</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Plasma Golem (Head Block texture is placeholder), also setup a Client and Common Proxy">
+      <created>1528189605892</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528189605892</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Build.Gradle Adjustments">
+      <created>1530399186157</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1530399186158</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Build.Gradle Adjustments">
+      <created>1530400889434</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1530400889434</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83700000" />
+    <option name="totallyTimeSpent" value="100070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="29" width="1938" height="1060" extended-state="6" />
@@ -2240,7 +2288,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27497315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2257,6 +2305,37 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2632171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25026852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -2265,9 +2344,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/core" />
-    </ignored-roots>
     <MESSAGE value="MagnesiumIngot" />
     <MESSAGE value="MagnesiumShard and Functioning Creative Tab" />
     <MESSAGE value="MagnesiumOre" />
@@ -2280,164 +2356,19 @@
     <MESSAGE value="Plasma Armor and Plasmatic Tools + Creative Tab Icon Change" />
     <MESSAGE value="Added Plasma Recipes and Fixed Armor Recipes" />
     <MESSAGE value="Plasmatic Wand Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plasmatic Wand Implementation" />
+    <MESSAGE value="Plasma Golem (Head Block texture is placeholder), also setup a Client and Common Proxy" />
+    <MESSAGE value="Build.Gradle Adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build.Gradle Adjustments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasmatic_hoe.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasmatic_axe.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/magnesium_boots.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasma_leggings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasma_helmet.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasma_chestplate.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasma_boots.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/magnesium_chestplate.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/magnesium_helmet.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/magnesium_leggings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/misc/IonicPlasma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraftforge/event/entity/living/EnderTeleportEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_sword.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/plasmatic_wand.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraft/entity/item/EntityEnderPearl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="52" column="62" lean-forward="false" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/tools/PlasmaticHoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraft/item/ItemFireworkCharge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasmatic_sword.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasmatic_wand.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2450,7 +2381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2046">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2458,7 +2388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2466,19 +2395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/weapons/PlasmaticWand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="84" column="139" lean-forward="false" selection-start-line="84" selection-start-column="139" selection-end-line="84" selection-end-column="139" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3679#3680#0" expanded="false" />
-            <element signature="e#3707#3708#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2486,14 +2402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -2510,9 +2418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2520,7 +2425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2528,7 +2432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2536,13 +2439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1239">
           <caret line="59" column="146" lean-forward="false" selection-start-line="59" selection-start-column="146" selection-end-line="59" selection-end-column="146" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#935#936#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-            <element signature="e#1023#1024#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2560,7 +2456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3054">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2568,7 +2463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2576,7 +2470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-882">
           <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2584,7 +2477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5313">
           <caret line="314" column="7" lean-forward="true" selection-start-line="314" selection-start-column="7" selection-end-line="314" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2592,7 +2484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2600,7 +2491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2608,15 +2498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2624,7 +2505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2632,7 +2512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2640,6 +2519,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/block/PlasmaGolemHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/entity/EntityPlasmaGolem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/misc/MagnesiumShard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/ionic_plasma.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/models/item/infused_shard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/magnesium_shard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/infused_shard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/lang/en_us.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/weapons/MagnesiumSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/weapons/PlasmaticSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/tools/PlasmaticHoe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/tools/PlasmaticAxe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/weapons/PlasmaticWand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="72" column="38" lean-forward="true" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/spicymemes/core/MainMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2705/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2705-sources.jar!/net/minecraft/block/BlockAir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/spicymemes/core/recipe/RecipesRegistryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/renders/entity/RenderPlasmaGolem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="115" lean-forward="false" selection-start-line="10" selection-start-column="115" selection-end-line="10" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/renders/RenderRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/spicyplasma/recipes/plasma_golem_head.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -2652,65 +2682,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/renders/RenderRegistry.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="2583">
+          <caret line="143" column="36" lean-forward="false" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/renders/entity/RenderPlasmaGolem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/item/misc/InfusedShard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="115" lean-forward="false" selection-start-line="10" selection-start-column="115" selection-end-line="10" selection-end-column="115" />
+        <state relative-caret-position="210">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ServerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/eula.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/crash-reports/crash-2018-08-10_23.37.28-server.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/ModMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/block/PlasmaGolemHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/entity/EntityPlasmaGolem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spicymods/plasma/init/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

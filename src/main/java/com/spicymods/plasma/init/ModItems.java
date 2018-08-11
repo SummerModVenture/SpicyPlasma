@@ -41,6 +41,7 @@ public class ModItems {
     public static Item magnesiumRod;
     public static Item plasmaPlate;
     public static Item plasmaticIngot;
+    public static Item infusedShard;
 
     //tools
     public static Item magnesiumPickaxe;
@@ -74,6 +75,7 @@ public class ModItems {
         magnesiumRod = new MagnesiumRod();
         plasmaPlate = new PlasmaPlate();
         plasmaticIngot = new PlasmaticIngot();
+        infusedShard = new InfusedShard();
         //tools
         magnesiumPickaxe = new MagnesiumPickaxe();
         magnesiumAxe = new MagnesiumAxe();
@@ -107,6 +109,7 @@ public class ModItems {
         event.getRegistry().register(magnesiumRod);
         event.getRegistry().register(plasmaPlate);
         event.getRegistry().register(plasmaticIngot);
+        event.getRegistry().register(infusedShard);
         //tools
         event.getRegistry().register(magnesiumPickaxe);
         event.getRegistry().register(magnesiumAxe);
@@ -140,6 +143,7 @@ public class ModItems {
         registerRender(magnesiumRod);
         registerRender(plasmaPlate);
         registerRender(plasmaticIngot);
+        registerRender(infusedShard);
         //tools
         registerRender(magnesiumPickaxe);
         registerRender(magnesiumAxe);
